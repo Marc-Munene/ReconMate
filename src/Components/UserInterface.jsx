@@ -70,12 +70,11 @@ const UserInterface = () => {
         {/* Header */}
         <div className="text-center mb-8">
           <div className="flex items-center justify-center space-x-3 mb-4">
-            <div className="bg-blue-600 p-3 rounded-full">
-              <FileText className="h-8 w-8 text-white" />
+            <div className="p-3 rounded-full ">
+              {/* <FileText className="h-8 w-8 text-white" /> */}
+              <img src="/reconmate_logo.png" alt="" width={160} />
             </div>
-            <h1 className="text-4xl font-bold text-gray-900">
-              Transaction Reconciliation Tool
-            </h1>
+            <h1 className="text-4xl font-bold text-gray-900">Reconciliation Tool</h1>
           </div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Upload your internal system export and provider statement to
